@@ -1,0 +1,15 @@
+@import "theme/variables";
+
+
+.gbl__head{
+    display: flex;
+    justify-content: center;
+
+    .heads{
+        @include text-transform(uppercase);
+        padding-top: 4em;
+        color: $white-color;
+        font-size: $fs-hd-regular + 20px;
+        font-weight: $fw-bold;
+    }
+}

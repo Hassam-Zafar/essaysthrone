@@ -1,0 +1,1 @@
+© {{ date('Y') }} <a href="#">Terms and conditions</a>  <a href="">Privacy policy</a>

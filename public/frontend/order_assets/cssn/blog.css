@@ -1,0 +1,120 @@
+.mainblogDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.post-heading p{
+    font-size: 24px;
+}
+.innerBlogDetail .date{
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+    text-align: right
+}
+.innerBlogDetail .blogImage .imageDiv {
+    background-image: url("https://media.istockphoto.com/photos/millennial-black-businesswoman-addressing-colleagues-at-a-corporate-picture-id1146472948?b=1&k=20&m=1146472948&s=170667a&w=0&h=DolimP0_eXB-ltyUGBDWV8YEWGC25Qk8E_GEPsuVURY=");
+    background-position: center;
+    height: 400px;
+}
+.innerBlogDetail .blogText {
+    padding: 40px 0px;
+}
+.innerBlogDetail .blogText .innerBlogText h4 {
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+}
+.innerBlogDetail .blogText .innerBlogText p {
+    font-size: 13px;
+    margin-top: 20px;
+}
+.innerBlogDetail .blogText .innerBlogText button {
+    font-size: 13px;
+    background-color: #045281;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+.recentBar {
+    padding: 37px 0px 42px 70px;
+}
+.recentBar .innerRecentBar .searchRecent {
+    border: 1px solid #045281;
+    height: 50px;
+    display: flex;
+  
+
+}
+.recentBar .innerRecentBar .searchRecent input {
+    border: none;
+    height: 100%;
+    width: 82%;
+    padding: 0px 20px;
+}
+.recentBar .innerRecentBar .searchRecent button {
+    height: 100%;
+    background: #045281;
+    width: 18%;
+    border: none;
+    color: white;
+    font-size: 21px;
+}
+.recentBar .recentList .listItem{
+    display: flex;
+    align-items: center;
+}
+.recentBar .recentList .bullet{
+    width: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7px;
+    color: #616570;
+
+}
+.recentBar .recentList .listItem p{
+
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 20px;
+    color: #616570;
+}
+.recentBar .recentList h4{
+    color: #0f80de;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+.recentBar .recentList{
+    
+    margin-top: 34px;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .innerMainblogDiv{
+        flex-direction: column-reverse;
+    }
+    .recentBar{
+        padding: 10px 10px 40px;
+    }
+    .innerRecentBar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .recentBar .innerRecentBar .searchRecent{
+        width: 100%;
+    }
+    .mainblogDiv{
+        margin-top: 100px;
+    }
+}

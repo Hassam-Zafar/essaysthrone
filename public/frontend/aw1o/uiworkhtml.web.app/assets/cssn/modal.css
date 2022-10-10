@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap");
+}
+
+.loginModal .loginModalHeader {
+    background: #045281;
+    color: white;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginModal .loginForm {
+    padding: 20px 20px;
+}
+.loginModal .modal-body .loginForm p {
+    color: #454545;
+    font-weight: 500;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.loginModal .modal-body .loginForm p span {
+    color: #0f80de;
+}
+.loginModal .modal-body .loginForm p span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.loginModal .modal-body .loginForm input {
+    border: 1px solid gray;
+    width: 100%;
+    height: 40px;
+    padding: 14px;
+    margin: 13px 0px 30px;
+    border-radius: 5px;
+}
+.loginModal .loginButton {
+    background: #0f80de;
+    border: 5px;
+    padding: 13px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.loginModal .loginButton p {
+    color: white !important;
+}
+.loginModal .fbLogin {
+    background: #3c5b96;
+    margin: 20px 0px;
+}
+.loginModal .fbLogin p i{
+    margin: 0px 5px;
+}
+.loginModal .googleLogin {
+    background: #4285f4;
+}
+.loginModal .orLogin{
+    margin: 10px 0px;
+}
+.loginModal .modal-content{
+    border: none;
+
+}
+@media screen and (min-width: 576px) {   
+    .loginModal .modal-dialog{
+        max-width: 440px;
+    }
+}

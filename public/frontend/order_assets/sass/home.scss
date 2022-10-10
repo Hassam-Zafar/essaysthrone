@@ -1,0 +1,53 @@
+$MQs: true;
+@import "theme/variables";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;600;700&display=swap');
+
+body {
+  font-family: $font-family;
+  font-size: $fs-regular;
+  font-weight: $fw-regular;
+  color: $base-color-light;
+  position: relative;
+  .select2-search--dropdown {
+    padding: 0;
+    .select2-search__field {
+      display: none;
+    }
+    input[aria-controls="select2-pa-results"], input[aria-controls="select2-hpa-results"] {
+      display: block;
+      width: 96%;
+      margin: 4px auto;
+    }
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body, html {
+  height: 100%;
+}
+.btn{
+  &:focus{
+    box-shadow: none;
+  }
+}
+a{
+  text-decoration: none;
+}
+//global _for main
+  .global_head{
+    line-height: 0.8;
+    padding-left: 10px;
+    .__ghead{
+      font-size: $fs-hd-regular;
+      color: $base-color-dark;
+      @include text-transform(uppercase);
+      font-weight: $fw-bold;
+    }
+    small{
+      color: $primary-color;
+      font-size: $fs-hd-regular + 22px;
+      font-weight: $fw-light;
+
+    }
+  }
