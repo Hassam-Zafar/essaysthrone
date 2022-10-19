@@ -1,0 +1,399 @@
+display-flex {
+    display: flex;
+    display: -webkit-flex;
+}
+list-type-ulli {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.gbl__head {
+    display: flex;
+    justify-content: center;
+}
+.gbl__head .heads {
+    -webkit-text-transform: uppercase;
+    -moz-text-transform: uppercase;
+    -ms-text-transform: uppercase;
+    text-transform: uppercase;
+    padding-top: 4em;
+    color: #fff;
+    font-size: 44px;
+    font-weight: 700;
+}
+/*# sourceMappingURL=order.css.map */
+
+.ordrPage {
+    margin-bottom: 80px;
+    margin-top: 130px;
+}
+
+.ordrPage .stepsForm .accordion-button:not(.collapsed) {
+    background: #0f80de;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    box-shadow: 0px 0px 9px -1px #000000a6;
+    margin: 40px 0px 20px;
+}
+.ordrPage .accordion-item{
+    border: none !important;
+}
+.ordrPage .inputField {
+    margin-bottom: 30px;
+}
+.ordrPage .inputField input,
+.ordrPage .inputField select {
+    border: 1px solid gray;
+    width: 100%;
+    padding: 13px 20px;
+    font-size: 13px;
+    border-radius: 5px;
+
+    height: 46.56px;
+    color: black;
+}
+
+.ordrPage .inputField p {
+    margin: 0 0 10px;
+    
+    font-size: 12px;
+    color: gray;
+
+}
+.ordrPage .inputField p span {
+    color: red;
+    font-size: 11px;
+}
+
+.ordrPage .phoneDiv .phoneSelect {
+    border: none !important;
+    display: none;
+}
+.ordrPage .phoneDiv .iti.iti--allow-dropdown.iti--separate-dial-code .iti__flag-container {
+    background: none;
+}
+
+.ordrPage .phoneDiv .iti.iti--allow-dropdown.iti--separate-dial-code .iti__flag-container .iti__selected-flag {
+    background-color: none;
+}
+
+.ordrPage .phoneDiv .iti__flag-container {
+    background: none;
+    height: 43px;
+}
+.ordrPage .phoneDiv .iti__selected-flag {
+    border: 1px solid gray;
+    background: none;
+    border-radius: 5px;
+}
+.ordrPage .phoneDiv .iti__selected-dial-code {
+    /* background: none; */
+    display: none;
+}
+.ordrPage .phoneDiv .phoneCountrySelect {
+    display: flex;
+}
+.ordrPage .phoneNumer {
+    padding: 8px 0px;
+}
+.ordrPage .phoneNumberDiv {
+    border-bottom: 1px solid gray;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+.ordrPage .phoneNumberDiv p {
+    margin: 0;
+    border-right: 1px solid gray;
+    padding-right: 10px;
+}
+.ordrPage .phoneDiv .phoneCountrySelect input {
+    border: none;
+    border-radius: 0px;
+    padding: 8px 8px;
+}
+.ordrPage .inputField .levels {
+    width: 100%;
+    display: flex;
+}
+.ordrPage .inputField .levels .Tab + .Tab {
+    margin-left: 15px;
+}
+.ordrPage .inputField .levels .Tab {
+    border: 1px solid gray;
+    padding: 12px 4%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ordrPage .inputField .levels .Tab.active {
+    border: 1px solid #0f80de;
+    background: #0f80de61;
+}
+.ordrPage .doubleDIv {
+    display: flex;
+    justify-content: space-between;
+}
+.ordrPage .inputField .HalfDiv {
+    width: 50%;
+}
+.ordrPage .inputField .HalfDiv + .HalfDiv {
+    width: 40%;
+}
+.ordrPage .inputField .HalfDiv .pageNumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ordrPage .inputField .HalfDiv .pageNumber .button {
+    width: 43.56px;
+    height: 43.56px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.ordrPage .inputField .HalfDiv .pageNumber input {
+    margin: 0px 20px;
+    width: calc(100% - 120px);
+    text-align: center;
+}
+.ordrPage .checkbox{
+    display: flex;
+    align-items: center;
+    
+    margin: 20px 0px;
+
+}
+.ordrPage .checkbox input {
+    margin: 0px !important;
+    position: unset !important;
+    
+    width: 17px;
+    height: 17px;
+
+}
+
+.ordrPage .checkbox .innerCheckBox{
+    display: flex;
+    align-items: center;
+}
+.ordrPage .checkbox  p{
+    margin: 0px;
+    margin-left: 10px;
+}
+.ordrPage .nextButton{
+    font-size: 13px;
+    background-color: #045281;
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px #97c5eb;
+}
+.ordrPage .moreSteps{
+    background: #a4cff2;
+    color: #045281;
+    /* margin: 30px 0px; */
+    /* border-radius: 5px; */
+    
+    margin: 0;
+    border-radius: 0;
+
+    
+}
+.ordrPage .accordion-body{
+    padding: 30px 0px;
+}
+.ordrPage .moreSteps button{
+    background-color: transparent;
+}
+.ordrPage .moreSteps span{
+    font-weight: bolder;
+}
+.ordrPage .moreSteps .step + .step {
+    border-top: 1px solid #04528147;
+}
+.ordrPage .moreSteps .step{
+    
+    padding: 15px;
+    font-size: 12px;
+
+}
+.paymentSteps{
+    
+    display: flex;
+    align-items: center;
+    background: #eaeaea;
+    border: 2px solid #bcbcbc;
+    border-radius: 10px;
+    
+}
+
+.ordrPage .paymentSteps .paymentData {
+    /* padding: 10px 20px; */
+    /* border-left: 2px solid #bcbcbc; */
+    padding: 12px 22px;
+    /* display: flex; */
+}
+.ordrPage .paymentSteps .paymentData h5{
+    
+    color: #0f80de;
+    font-weight: bolder;
+
+}
+.ordrPage .paymentData p{
+    color: gray;
+
+}
+.ordrPage .paymentSteps .paymentData + .paymentData {
+    border-left: 2px solid #bcbcbc;
+    /* display: flex; */
+}
+.ordrPage .rightCart{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.ordrPage .cartAmount{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    box-shadow: 0px 0px 22px -11px black;
+    border-radius: 12px;
+    margin: 40px 0px;
+    
+}
+.ordrPage .cartAmount h5{
+    color: #045281;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 10px 5px;
+}
+.ordrPage .cartAmount p{
+    margin: 00px 10px 5px;
+    color: gray;
+    
+    
+    /* margin: 0px; */
+}
+.totaltext{
+    font-size: 14px;
+    color: #004f91 !important;
+    font-weight: 600;
+    margin: 0;
+}
+.ordrPage .cartAmount .item{
+    padding: 4px 11px 10px;
+    border-bottom:  2px solid #0f80de91;
+}
+.ordrPage .cartAmount .item.TotalCart{
+    background: #0f80de91;
+    border: none;
+    padding: 0 11px;
+}
+.ordrPage .cartAmount .totalItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.ordrPage .cartAmount .totalItem b{
+
+margin: 0px 4px;
+font-size: 13px;
+FONT-WEIGHT: bolder;
+color: #045281;
+}
+.ordrPage .cardsAccepted{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px 24px;}
+.ordrPage .cardsAccepted img{
+    width: 30px;
+    opacity: 0.3;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.ordrPage .cardsAccepted img:hover{
+    opacity: 1;
+}
+.ordrPage .cardsAccepted img + img {
+    margin-left: 10px;
+}
+.fromDiv .accordion {
+    margin: 20px 0px;
+}
+.fromDiv .accordion-button {
+    /* border: none; */
+    box-shadow: none;
+}
+
+@media screen and (max-width: 600px) {
+    .ordrPage .cartAmount{
+        width: 100%;
+        margin: 40px 0px;
+    }
+    .paymentSteps{
+        flex-direction: column;
+    }
+    .ordrPage .paymentSteps .paymentData + .paymentData{
+        border: none;
+        border-top: 2px solid #bcbcbc;
+    }
+    .ordrPage .inputField .levels{
+        flex-wrap: wrap;
+    }
+    .ordrPage .inputField .levels .Tab{
+    margin-right: 10px;
+    margin-left: 0px !important;
+    }
+    .ordrPage .inputField .levels .Tab{
+        margin-bottom: 20px;
+    }
+    .ordrPage .inputField .HalfDiv{
+        width: 100% !important;
+    }
+    .ordrPage .inputField .HalfDiv + .HalfDiv {
+        margin-top: 30px;
+    }
+    .ordrPage .inputField.doubleDIv{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .ordrPage .inputField.doubleDIv .Tab{
+    margin-bottom: 0px !important;
+    }
+}
+
+.row.pilt .bottom{
+    
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 70%;
+    top: -45px;
+    border: 0;
+
+}
+
+
+
+header {
+    background: url(../images/banners.jpg) no-repeat;
+    height: 570px;
+    background-position: center;
+    background-size: cover !important;
+}

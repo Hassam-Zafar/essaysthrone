@@ -137,7 +137,7 @@ transition: .3s ease-in-out;
           </div>
         </div>
         <div class="col-lg-7 col-lg-3 text-right order-lg-2 order-2">
-          <img src="{{ asset('frontend/assets/img/right-image.png') }}" class="img-fluid ">
+          <img src="{{ asset('frontend/assets/img/right-image.png') }}" class="img-fluid" alt="{{ asset('frontend/assets/img/right-image.png') }}">
         </div>
       </div>
     </div>
